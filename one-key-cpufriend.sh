@@ -402,6 +402,7 @@ function main(){
     changeEPP
   fi
   generateKext
+  echo "Passed generateKext"
   clean
   echo -e "[ ${GREEN}OK${OFF} ]This is the end of the script, please copy CPUFriend and CPUFriendDataProvider"
   echo "from desktop to /CLOVER/kexts/Other/(or L/E/)"
